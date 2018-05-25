@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+  font-family: "basic title font";
+}
+
+html, body {
+  margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	background-color: white;
+}

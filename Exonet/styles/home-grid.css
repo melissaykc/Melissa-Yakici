@@ -1,0 +1,30 @@
+#home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas: "header header header header"
+                       "werk werk werk werk"
+                       "ontstaan ontstaan ontstaan ontstaan"
+                       "contact contact contact contact"
+                       "map map map map"; 
+}
+
+#header {
+	grid-area: header;
+}
+
+#werk {
+	grid-area: werk;
+}
+
+#ontstaan {
+	grid-area: ontstaan;
+}
+
+#contact {
+	grid-area: contact;
+}
+
+#map {
+	grid-area: map;
+}
