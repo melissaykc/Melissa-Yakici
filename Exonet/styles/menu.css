@@ -5,22 +5,20 @@
   z-index: 1;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-top: 0;
 }
 
 #menu>a {
   padding: 22px 25px;
   float: right;
   display: block;
-  text-align: center;
   text-decoration: none;
   font-size: 23px;
   color: black;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 #menu>a:hover {
-  background-color: #d5dbe5;
+  background-color: #edeff2;
 }
 
 #menu>img {

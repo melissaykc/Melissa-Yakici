@@ -12,7 +12,7 @@
 }
 
 #header>p {
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 3px;
 	color: black;
   position: absolute;
@@ -20,4 +20,6 @@
   top: 33%;
   width: 100%;
   text-align: center;
+  background-color: #edeff2;
+  opacity: 0.7;
 }

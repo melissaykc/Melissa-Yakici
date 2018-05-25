@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 18px;
   grid-template-columns: auto auto auto auto;
-	grid-template-rows: 140px 200px 200px;
+	grid-template-rows: auto auto auto;
   grid-template-areas: "txt txt txt txt"
                        "foto1 foto2 foto3 foto4"
                        "foto5 foto6 foto7 foto8";
@@ -17,34 +17,42 @@
 
 #foto1 {
 	grid-area: foto1;
+  position: relative;
 }
 
 #foto2 {
 	grid-area: foto2;
+  position: relative;
 }
 
 #foto3 {
 	grid-area: foto3;
+  position: relative;
 }
 
 #foto4 {
 	grid-area: foto4;
+  position: relative;
 }
 
 #foto5 {
 	grid-area: foto5;
+  position: relative;
 }
 
 #foto6 {
 	grid-area: foto6;
+  position: relative;
 }
 
 #foto7 {
 	grid-area: foto7;
+  position: relative;
 }
 
 #foto8 {
 	grid-area: foto8;
+  position: relative;
 }
 
 #werk p {
@@ -61,7 +69,15 @@
 }
 
 .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
 }

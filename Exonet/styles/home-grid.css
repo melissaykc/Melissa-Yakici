@@ -1,12 +1,18 @@
 #home-grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto;
-  grid-template-areas: "header header header header"
+  grid-template-rows: 0px auto auto auto auto auto auto;
+  grid-template-areas: "menu menu menu menu"
+                       "header header header header"
                        "werk werk werk werk"
-                       "ontstaan ontstaan ontstaan ontstaan"
+                       "waarom waarom waarom waarom"
                        "contact contact contact contact"
-                       "map map map map"; 
+                       "map map map map"
+                       "footer footer footer footer"; 
+}
+
+#menu {
+	grid-area: menu;
 }
 
 #header {
@@ -17,8 +23,8 @@
 	grid-area: werk;
 }
 
-#ontstaan {
-	grid-area: ontstaan;
+#waarom {
+	grid-area: waarom;
 }
 
 #contact {
@@ -27,4 +33,8 @@
 
 #map {
 	grid-area: map;
+}
+
+#footer {
+	grid-area: footer;
 }
