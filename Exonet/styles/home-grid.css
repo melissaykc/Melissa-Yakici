@@ -6,7 +6,7 @@
                        "header header header header"
                        "werk werk werk werk"
                        "waarom waarom waarom waarom"
-                       "contact contact contact contact"
+                       "offerte offerte offerte offerte"
                        "map map map map"
                        "footer footer footer footer"; 
 }
@@ -27,8 +27,8 @@
 	grid-area: waarom;
 }
 
-#contact {
-	grid-area: contact;
+#offerte {
+	grid-area: offerte;
 }
 
 #map {

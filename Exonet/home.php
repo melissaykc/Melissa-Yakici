@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/werk.css">
     <link rel="stylesheet" type="text/css" href="styles/waarom.css">
-    <link rel="stylesheet" type="text/css" href="styles/contact-home.css">
+    <link rel="stylesheet" type="text/css" href="styles/offerte.css">
     
 		<title>
 			Exonet Belgium
@@ -102,7 +102,7 @@
           <h2>Medewerker</h2>
           <p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
           <div id="img-button1" class="werk-knop">
-            <a href="#">
+            <a href="contact.php">
               Contact
             </a>
           </div>
@@ -126,7 +126,7 @@
           <h2>Medewerker</h2>
           <p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt. </p>
           <div id="img-button1" class="werk-knop">
-            <a href="#">
+            <a href="contact.php">
               Contact
             </a>
           </div>
@@ -138,18 +138,49 @@
           <h2>Medewerker</h2>
           <p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
           <div id="img-button1" class="werk-knop">
-            <a href="#">
+            <a href="contact.php">
               Contact
             </a>
           </div>
         </div>
       </div>
       
-      <div id="contact-home">
+      <div id="offerte">
         <div id="txt">
-          <p>Contact</p>
+          <p>Professionele schoonmaak</p>
           <hr>
         </div>
+        <div id="txt-offerte">
+          Voor kantoren, commerciële panden, magazijnen, praktijken, horeca,....
+        </div>
+          
+           
+        
+ 
+        <div id="offerte-input">
+          <form class="w3-container w3-card-4 w3-light-grey">
+            <p>      
+              <input class="input" type="text" placeholder="Bedrijf">
+            </p>
+            
+            <p>      
+              <input class="input w3-border-0" type="text" placeholder="Telefoonnummer">
+            </p>
+            
+            <p>      
+              <input class="input w3-border-0" type="text" placeholder="E-mail adres">
+            </p>
+            
+            <p>      
+              <input class="input w3-border-0" type="text" placeholder="Bericht">
+            </p>
+            
+            <button class="input-button ">
+              <a href="#">VRAAG OFFERTE AAN</a>
+            </button>
+          </form>
+        </div>
+        
       </div>
       
     </div>
