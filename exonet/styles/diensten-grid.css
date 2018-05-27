@@ -1,0 +1,35 @@
+#home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 0px auto auto auto auto auto;
+  grid-template-areas: "menu menu menu menu"
+                       "slideshow slideshow slideshow slideshow"
+                       "diensten diensten diensten diensten"
+                       "offerte offerte offerte offerte"
+                       "map map map map"
+                       "footer footer footer footer"; 
+}
+
+#menu {
+	grid-area: menu;
+}
+
+#slideshow {
+	grid-area: slideshow;
+}
+
+#diensten {
+	grid-area: diensten;
+}
+
+#offerte {
+	grid-area: offerte;
+}
+
+#map {
+	grid-area: map;
+}
+
+#footer {
+	grid-area: footer;
+}

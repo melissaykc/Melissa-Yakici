@@ -1,0 +1,17 @@
+#txt-jobs {
+	font-size: 26px;
+  margin-top: 5%;
+}
+
+#jobs {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#txt-jobs hr {
+  opacity: 0.2;
+}
+
+#cv {
+	margin-bottom: 5%;
+}

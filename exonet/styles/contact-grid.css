@@ -1,0 +1,25 @@
+#contact-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 34px auto auto auto;
+  grid-template-areas: "menu"
+                       "offerte"
+                       "map"
+                       "footer"; 
+}
+
+#menu {
+	grid-area: menu;
+}
+
+#offerte {
+	grid-area: offerte;
+}
+
+#map {
+	grid-area: map;
+}
+
+#footer {
+	grid-area: footer;
+}
