@@ -1,10 +1,9 @@
 #footer {
+	width: 100%;
   background-color: black;
   height: 85px;
   color: white;
 	text-align: center;
   padding-top: 35px;
   letter-spacing: 1px;
-	margin-left: 10%;
-	margin-right: 10%;
 }

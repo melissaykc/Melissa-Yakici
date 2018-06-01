@@ -1,23 +1,46 @@
-	#diensten {
+#diensten {
 		display: grid;
-		grid-gap: 18px;
 		grid-template-columns: auto;
-		grid-template-rows: auto auto;
+		grid-template-rows: auto auto auto auto auto auto auto;
 		grid-template-areas: "txt" 
-		                     "tabs";
-		
-		margin-left: 10%;
-		margin-right: 10%;
+		                     "schoonmaak"
+		                     "opleveringsschoonmaak"
+		                     "vloerreiniging"
+		                     "klusjesdienst"
+		                     "tuinonderhoud"
+		                     "computerreiniging";
+	
+	margin-left: 10%;
+	margin-right: 10%;
 	}
 
+#schoonmaak{
+	grid-area: schoonmaak;
+}
+
+#opleveringsschoonmaak{
+	grid-area: opleveringsschoonmaak;
+}
+
+#vloerreiniging{
+	grid-area: vloerreiniging;
+}
+
+#klusjesdienst{
+	griid-area: klusjesdienst;
+}
+
+#tuinonderhoud{
+	grid-area: tuinonderhoud;
+}
+
+#computerreiniging{
+	grid-area: computerreiniging;
+}
 	#txt-diensten {
 		grid-area: txt;
 		font-size: 26px;
 		margin-top: 5%;
-	}
-
-	#tabs-diensten {
-		grid-area: tabs;
 	}
 
 	.tablink {
@@ -27,7 +50,7 @@
 		border: none;
 		cursor: pointer;
 		font-size: 15px;
-		width: 32%;
+		width: 500px;
 		padding: 12px;
 		margin: 7px;
 	}
@@ -44,3 +67,52 @@
 		height: 100%;
 		margin-top: 20px;
 		}
+
+.ProductItem a {
+	text-decoration: none;
+  color:black;
+}
+.ProductItem a span {
+	display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 4px;
+  float: right;
+  font-size: 36px;
+  width: 70px;
+  color: #fff;
+  background-color: #616161;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.ProductItem a p {
+	font-size: 36px;
+}
+.ProductItem a h1 {
+	font-size: 36px;
+}
+
+@media only screen and (min-width: 600px)
+{
+		#diensten {
+		display: grid;
+		grid-gap: 18px;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		grid-template-areas: "txt" 
+		                     "tabs";
+		
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.tablink {
+		width: 32%;
+	}
+}
+
+

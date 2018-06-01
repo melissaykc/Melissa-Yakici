@@ -5,7 +5,7 @@
   grid-template-areas: "menu"
                        "jobs"
                        "map"
-                       "footer"; 
+	                     "footer";
 }
 
 #menu {

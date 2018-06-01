@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
 	<link rel="stylesheet" type="text/css" href="styles/home-grid.css">
@@ -12,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="styles/waarom.css">
 	<link rel="stylesheet" type="text/css" href="styles/offerte.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<title>
 		Home - Exonet Belgium
@@ -20,6 +22,9 @@
 
 <body>
 	<div id="home-grid">
+		<div id="hamburger">
+			<a href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		</div>
 
 		<div id="menu">
 			<img src="images/logo.jpg">
@@ -108,8 +113,8 @@
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
 				<div id="img-button1" class="werk-knop">
 					<a href="contact.php">
-								Contact
-							</a>
+						Contact
+					</a>
 				</div>
 			</div>
 
@@ -120,8 +125,8 @@
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
 				<div id="img-button1" class="werk-knop">
 					<a href="contact.php">
-								Contact
-							</a>
+						Contact
+					</a>
 				</div>
 			</div>
 
@@ -132,8 +137,8 @@
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt. </p>
 				<div id="img-button1" class="werk-knop">
 					<a href="contact.php">
-								Contact
-							</a>
+						Contact
+					</a>
 				</div>
 			</div>
 
@@ -144,8 +149,8 @@
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
 				<div id="img-button1" class="werk-knop">
 					<a href="contact.php">
-								Contact
-							</a>
+						Contact
+					</a>
 				</div>
 			</div>
 		</div>
@@ -174,12 +179,12 @@
 					</p>
 
 					<p>
-						<input class="input w3-border-0" type="text" placeholder="Bericht">
+						<input class="input w3-border-0" type="text" placeholder="Onderwerp">
 					</p>
 
-					<button class="input-button ">
-								<a href="#">VRAAG OFFERTE AAN</a>
-							</button>
+					<a href="#" class="input-button ">
+						<i class="fa fa-paper-plane"> VRAAG OFFERTE AAN </i> 
+					</a>
 				</form>
 			</div>
 
@@ -204,14 +209,10 @@
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFdPNRGVuqgWT_zmzLJgY57W4EvPz7wEU&callback=myMap"></script>
 			</div>
 		</div>
-
-
-			<div id="footer">
-				EXONET Belgium ®
-			</div>
-
-
+	</div>
+	
+	<div id="footer">
+		2018 © Copyright EXONET Belgium.
 	</div>
 </body>
-
 </html>

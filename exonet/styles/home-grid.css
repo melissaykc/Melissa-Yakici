@@ -1,14 +1,14 @@
+
 #home-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto;
   grid-template-rows: 0px auto auto auto auto auto auto;
-  grid-template-areas: "menu menu menu menu"
-                       "header header header header"
-                       "werk werk werk werk"
-                       "waarom waarom waarom waarom"
-                       "offerte offerte offerte offerte"
-                       "map map map map"
-                       "footer footer footer footer";
+  grid-template-areas: "menu"
+                       "header"
+                       "werk"
+                       "waarom"
+                       "offerte"
+                       "map";
 }
 
 #menu {
@@ -38,3 +38,21 @@
 #footer {
 	grid-area: footer;
 }
+
+
+@media only screen and (min-width: 600px)
+{
+	#home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 0px auto auto auto auto auto auto;
+  grid-template-areas: "menu menu menu menu"
+                       "header header header header"
+                       "werk werk werk werk"
+                       "waarom waarom waarom waarom"
+                       "offerte offerte offerte offerte"
+                       "map map map map";
+}
+
+}
+

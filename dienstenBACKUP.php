@@ -35,17 +35,17 @@
 
 		<div class="slideshow-container">
 			<div class="mySlides fade">
-				<img src="images/img2.jpg">
+				<img src="images/img2.jpg" style="width:100%">
 				<div class="text">Verhuizingen</div>
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/img1.jpg">
+				<img src="images/img1.jpg" style="width:100%">
 				<div class="text">Dakgoten reinigen</div>
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/img3.jpg">
+				<img src="images/img3.jpg" style="width:100%">
 				<div class="text">Vloerreiniging</div>
 			</div>
 

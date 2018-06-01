@@ -1,0 +1,23 @@
+#dienstendb {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+#dienstendb h2 {
+	font-size: 35px;
+	margin-top: 10%;
+}
+
+#dienstendb p {
+	font-size: 25px;
+}
+
+#dienstendb img {
+	width: 80%;
+}
+
+#dienstendb hr {
+	opacity: 0.3;
+	width: 80%;
+}

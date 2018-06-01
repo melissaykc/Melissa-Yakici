@@ -1,13 +1,13 @@
-#home-grid {
+#diensten-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 0px auto auto auto auto auto;
-  grid-template-areas: "menu menu menu menu"
-                       "slideshow slideshow slideshow slideshow"
-                       "diensten diensten diensten diensten"
-                       "offerte offerte offerte offerte"
-                       "map map map map"
-                       "footer footer footer footer"; 
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas: "menu"
+                       "slideshow"
+                       "diensten"
+                       "offerte"
+                       "map"
+                       "footer";
 }
 
 #menu {
@@ -20,6 +20,7 @@
 
 #diensten {
 	grid-area: diensten;
+	
 }
 
 #offerte {
@@ -32,4 +33,20 @@
 
 #footer {
 	grid-area: footer;
+}
+
+@media only screen and (min-width: 600px)
+{
+	#diensten-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas: "menu"
+                       "slideshow"
+                       "diensten"
+                       "offerte"
+                       "map"
+                       "footer"; 
+}
+
 }

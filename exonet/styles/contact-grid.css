@@ -1,6 +1,6 @@
 #contact-grid {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-template-rows: 34px auto auto auto;
   grid-template-areas: "menu"
                        "offerte"

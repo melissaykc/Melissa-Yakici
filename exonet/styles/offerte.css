@@ -20,41 +20,38 @@
 #info-offerte {
   grid-area: voor;
   font-size: 16px;
+	margin-bottom: 15px;
 }
 
 #offerte-input {
   grid-area: input;
+	margin-bottom: 15px;
 }
 
 .input {
   width: 100%;
   font-size: 18px;
-  border: 1px solid darkgray;
   padding: 12px;
   margin-bottom: 8px;
 }
 
 .input-button  {
   font-size: 18px;
-  padding: 12px;
+	color: white;
   margin-bottom: 50px;
   background-color: black;
   border: none;
+	display: inline-block;
+  padding: 12px;
+	text-decoration: none;
 }
 
 .input-button:hover {
-  background-color: darkgray;
-}
-
-.input-button a {
-  text-decoration: none;
-  color: white;
-}
-
-.input-button a:hover {
   color: black;
+	display: inline-block;
+	background-color: darkgray;
 }
 
 #txt-offerte hr {
-  opacity: 0.2;
+  opacity: 0.8;
 }

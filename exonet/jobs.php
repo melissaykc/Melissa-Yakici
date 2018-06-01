@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
 	<link rel="stylesheet" type="text/css" href="styles/jobs.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<title>
 		Jobs - Exonet Belgium
@@ -17,7 +19,9 @@
 
 <body>
 	<div id="jobs-grid">
-
+<div id="hamburger">
+      <a href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    </div>
 		<div id="menu">
 			<img src="images/logo.jpg">
 			<a href="jobs.php">Jobs</a>
@@ -48,18 +52,18 @@
 					<p>
 						<input class="input w3-border-0" type="text" placeholder="E-mail adres">
 					</p>
-<div id="cv">
-	<p>Voeg hier je CV in:</p>
-					<input type="file" id="myFile">
+					<div id="cv">
+						<p>Voeg hier je CV in:</p>
+						<input type="file" id="myFile">
 				</form>
 				<script>
-function myFunction() {
-    var x = document.getElementById("myFile");
-    x.disabled = true;
-}
-</script>
-					</div>
-			
+					function myFunction() {
+						var x = document.getElementById("myFile");
+						x.disabled = true;
+					}
+				</script>
+				</div>
+
 			</div>
 
 			<div id="map" style="width:100%;height:350px">
@@ -85,9 +89,10 @@ function myFunction() {
 		</div>
 
 		<div id="footer">
-			EXONET Belgium ®
+			2018 © Copyright EXONET Belgium.
 		</div>
 
 	</div>
 </body>
+
 </html>

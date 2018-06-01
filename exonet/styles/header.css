@@ -1,7 +1,6 @@
 #header {
-  padding-top: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   position: relative;
 }
 
@@ -21,4 +20,11 @@
   text-align: center;
   background-color: black;
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px)
+{
+	#header>p {
+		font-size: 20px;
+	}
 }
