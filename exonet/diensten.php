@@ -29,7 +29,17 @@
 			<img src="images/logo.jpg">
 			<a href="jobs.php">Jobs</a>
 			<a href="contact.php">Contact</a>
-			<a href="diensten.php">Diensten</a>
+			<div class="dropdown">
+				<a class="btn actief" id="diensten-link" href="diensten.php">Diensten</a>
+				<div class="dropdown-content">
+				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
+					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
+					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
+				</div>
+			</div>
 			<a href="home.php">Home</a>
 		</div>
 
@@ -51,15 +61,17 @@
 
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		</div>
-		<br>
-
-		<div style="text-align:center">
+			
+			<div style="text-align:center">
 			<span class="dot" onclick="currentSlide(1)"></span>
 			<span class="dot" onclick="currentSlide(2)"></span>
 			<span class="dot" onclick="currentSlide(3)"></span>
 		</div>
+
+		</div>
+		<br>
+
+		
 
 		<script>
 			var slideIndex = 1;

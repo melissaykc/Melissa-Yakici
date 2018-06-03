@@ -1,19 +1,14 @@
 #dienstendb-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20px auto auto;
+  grid-template-columns: auto;
+  grid-template-rows: 34px auto auto;
   grid-template-areas: "menu"
 	                     "dienstendb"
-                       "offerte"
                        "footer";
 }
 
 #menu {
 	grid-area: menu;
-}
-
-#offerte {
-	grid-area: offerte;
 }
 
 #footer {
@@ -22,17 +17,4 @@
 
 #dienstendb {
 	grid-area: dienstendb;
-}
-
-@media only screen and (min-width: 600px)
-{
-	#diensten-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "menu"
-                       "offerte"
-                       "footer"; 
-}
-
 }

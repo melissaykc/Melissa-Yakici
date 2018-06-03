@@ -4,14 +4,26 @@
 }
 
 #jobs {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #txt-jobs hr {
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
 #cv {
 	margin-bottom: 5%;
+}
+
+#info-jobs {
+	margin-bottom: 3%;
+}
+
+@media only screen and (min-width: 600px)
+{
+	#jobs {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
 }

@@ -1,6 +1,6 @@
 #dienstendb {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
 	text-align: center;
 }
 
@@ -14,10 +14,10 @@
 }
 
 #dienstendb img {
-	width: 80%;
+	width: 100%;
 }
 
 #dienstendb hr {
 	opacity: 0.3;
-	width: 80%;
+	width: 100%;
 }

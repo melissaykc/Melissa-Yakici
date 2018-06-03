@@ -90,6 +90,7 @@
   background-color: #adafb2;
 }
 
+
 @media only screen and (min-width: 600px)
 {
 	#waarom {
@@ -101,8 +102,8 @@
                        "waarom waarom waarom waarom"
                        "medewerker1 medewerker2 medewerker3 medewerker4";
   
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 }

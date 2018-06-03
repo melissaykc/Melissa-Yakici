@@ -1,14 +1,14 @@
 #offerte {
   display: block;
   grid-gap: 16px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto;
 	grid-template-rows: auto auto auto;
-  grid-template-areas: "txt txt txt txt"
-                       "voor voor voor voor"
-                       "input input input input";
+  grid-template-areas: "txt"
+                       "voor"
+                       "input";
   
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #txt-offerte {
@@ -54,4 +54,21 @@
 
 #txt-offerte hr {
   opacity: 0.8;
+}
+
+@media only screen and (min-width: 600px)
+{
+	#offerte {
+  display: block;
+  grid-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto;
+  grid-template-areas: "txt txt txt txt"
+                       "voor voor voor voor"
+                       "input input input input";
+  
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 }

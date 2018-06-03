@@ -1,7 +1,7 @@
 #diensten-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: 1fr auto auto auto auto auto;
   grid-template-areas: "menu"
                        "slideshow"
                        "diensten"
@@ -12,6 +12,7 @@
 
 #menu {
 	grid-area: menu;
+	padding-right: 23px;
 }
 
 #slideshow {
@@ -21,6 +22,10 @@
 #diensten {
 	grid-area: diensten;
 	
+}
+
+#hamburger>a{
+	font-size: 40px;
 }
 
 #offerte {
@@ -35,18 +40,7 @@
 	grid-area: footer;
 }
 
-@media only screen and (min-width: 600px)
-{
-	#diensten-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-template-areas: "menu"
-                       "slideshow"
-                       "diensten"
-                       "offerte"
-                       "map"
-                       "footer"; 
+#menu>a{
+	font-size: 25px;
 }
 
-}

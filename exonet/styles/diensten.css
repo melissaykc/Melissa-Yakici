@@ -10,8 +10,8 @@
 		                     "tuinonderhoud"
 		                     "computerreiniging";
 	
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	}
 
 #schoonmaak{
@@ -106,8 +106,8 @@ hr {
 		grid-template-areas: "txt" 
 		                     "tabs";
 		
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 	
 	.tablink {

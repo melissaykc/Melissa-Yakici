@@ -28,10 +28,20 @@
 
 		<div id="menu">
 			<img src="images/logo.jpg">
-			<a href="jobs.php" class="active">Jobs</a>
-			<a href="contact.php" class="active">Contact</a>
-			<a href="diensten.php" class="active">Diensten</a>
-			<a href="home.php" class="active">Home</a>
+			<a href="jobs.php">Jobs</a>
+			<a href="contact.php">Contact</a>
+			<div class="dropdown">
+				<a id="diensten-link" href="diensten.php">Diensten</a>
+				<div class="dropdown-content">
+				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
+					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
+					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
+				</div>
+			</div>
+			<a href="home.php" class="btn active">Home</a>
 		</div>
 
 		<div id="header">
@@ -111,10 +121,12 @@
 				<h1>Jane Doe</h1>
 				<h2>Medewerker</h2>
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
-				<div id="img-button1" class="werk-knop">
-					<a href="contact.php">
+				
+						<div id="img-button1" class="werk-knop">
+						<a href="contact.php">
 						Contact
 					</a>
+					
 				</div>
 			</div>
 

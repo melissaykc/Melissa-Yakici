@@ -25,8 +25,18 @@
 		<div id="menu">
 			<img src="images/logo.jpg">
 			<a href="jobs.php">Jobs</a>
-			<a href="contact.php">Contact</a>
-			<a href="diensten.php">Diensten</a>
+			<a href="contact.php" class="btn active">Contact</a>
+			<div class="dropdown">
+				<a id="diensten-link" href="diensten.php">Diensten</a>
+				<div class="dropdown-content">
+				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
+					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
+					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
+				</div>
+			</div>
 			<a href="home.php">Home</a>
 		</div>
 
