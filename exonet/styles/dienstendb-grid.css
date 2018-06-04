@@ -9,6 +9,11 @@
 
 #menu {
 	grid-area: menu;
+	display: none;
+}
+
+#hamburger{
+	display: block;
 }
 
 #footer {
@@ -18,3 +23,4 @@
 #dienstendb {
 	grid-area: dienstendb;
 }
+

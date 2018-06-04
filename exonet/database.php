@@ -33,7 +33,6 @@ $diensten = array(
 	array("title" => "Interne verhuizingen", "image" => "intern.jpg", "typeProduct" => array("klusjesdienst")),
 	array("title" => "Kelders en archieven ontruimen", "image" => "ontruiming.jpg", "typeProduct" => array("klusjesdienst")),
 	array("title" => "Kleine technische en electrische herstellingen", "image" => "herstelling.jpg", "typeProduct" => array("klusjesdienst")),
-	
   
 	array("title" => "Onderhoud van gazon, borders en bloemenperken", "image" => "gazon.jpg", "typeProduct" => array("tuinonderhoud")),
 	array("title" => "Grasmaaien", "image" => "gras.jpg", "typeProduct" => array("tuinonderhoud")),

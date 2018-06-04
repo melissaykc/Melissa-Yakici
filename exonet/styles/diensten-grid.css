@@ -1,7 +1,7 @@
 #diensten-grid {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr auto auto auto auto auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas: "menu"
                        "slideshow"
                        "diensten"
@@ -21,11 +21,6 @@
 
 #diensten {
 	grid-area: diensten;
-	
-}
-
-#hamburger>a{
-	font-size: 40px;
 }
 
 #offerte {
@@ -39,8 +34,3 @@
 #footer {
 	grid-area: footer;
 }
-
-#menu>a{
-	font-size: 25px;
-}
-

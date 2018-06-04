@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
@@ -10,15 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="styles/diensten.css">
 	<link rel="stylesheet" type="text/css" href="styles/offerte.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
-	
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<title>
 		Diensten - Exonet Belgium
 	</title>
 </head>
-
 <body>
 	<div id="diensten-grid">
 		<div id="hamburger">
@@ -26,36 +23,36 @@
 		</div>
 		
 		<div id="menu">
-			<img src="images/logo.jpg">
+			<img src="images/logo.jpg" alt="EXONET Belgium">
 			<a href="jobs.php">Jobs</a>
 			<a href="contact.php">Contact</a>
 			<div class="dropdown">
 				<a class="btn actief" id="diensten-link" href="diensten.php">Diensten</a>
 				<div class="dropdown-content">
-				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
-				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
-				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+					<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+					<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
 					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
 					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
 					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
 				</div>
 			</div>
-			<a href="home.php">Home</a>
+			<a href="index.php">Home</a>
 		</div>
 
 		<div class="slideshow-container">
 			<div class="mySlides fade">
-				<img src="images/img2.jpg">
+				<img src="images/img2.jpg" alt="Verhuizingen">
 				<div class="text">Verhuizingen</div>
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/img1.jpg">
+				<img src="images/img1.jpg" alt="Dakgoten reinigen">
 				<div class="text">Dakgoten reinigen</div>
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/img3.jpg">
+				<img src="images/img3.jpg" alt="Vloerreiniging">
 				<div class="text">Vloerreiniging</div>
 			</div>
 
@@ -66,13 +63,10 @@
 			<span class="dot" onclick="currentSlide(1)"></span>
 			<span class="dot" onclick="currentSlide(2)"></span>
 			<span class="dot" onclick="currentSlide(3)"></span>
-		</div>
-
+			</div>
 		</div>
 		<br>
-
 		
-
 		<script>
 			var slideIndex = 1;
 			showSlides(slideIndex);
@@ -113,7 +107,7 @@
 			</div>
 			
 			<div id="tabs-diensten">
-				<a href="dienstendb.php?filter=schoonmaak"><button id="tab1" class="tablink" onclick="openPage('schoonmaak', this, 'darkgray')" id="defaultOpen">SCHOONMAAK</button></a>
+				<a href="dienstendb.php?filter=schoonmaak"><button id="tab1" class="tablink" onclick="openPage('schoonmaak', this, 'darkgray')">SCHOONMAAK</button></a>
 				<a href="dienstendb.php?filter=opleveringsschoonmaak"><button id="tab2" class="tablink" onclick="openPage('opleveringsschoonmaak', this, 'darkgray')">OPLEVERINGSSCHOONMAAK</button></a>
 				<a href="dienstendb.php?filter=vloerreiniging"><button id="tab3" class="tablink" onclick="openPage('vloerreiniging', this, 'darkgray')">VLOERREINIGING</button></a>
 				<a href="dienstendb.php?filter=klusjesdienst"><button id="tab4" class="tablink" onclick="openPage('klusjesdienst', this, 'darkgray')">KLUSJESDIENST</button></a>
@@ -123,20 +117,20 @@
 		</div>
 		
 		<script>
-				function openPage(pageName, elmnt, color) {
-					var i, tabcontent, tablinks;
-					tabcontent = document.getElementsByClassName("tabcontent");
-					for (i = 0; i < tabcontent.length; i++) {
-						tabcontent[i].style.display = "none";
-					}
-					tablinks = document.getElementsByClassName("tablink");
-					for (i = 0; i < tablinks.length; i++) {
-						tablinks[i].style.backgroundColor = "";
-					}
-					document.getElementById(pageName).style.display = "block";
-					elmnt.style.backgroundColor = color;
+			function openPage(pageName, elmnt, color) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
 				}
-			document.getElementById("defaultOpen").click();
+				tablinks = document.getElementsByClassName("tablink");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].style.backgroundColor = "";
+				}
+				document.getElementById(pageName).style.display = "block";
+				elmnt.style.backgroundColor = color;
+			}
+		document.getElementById("defaultOpen").click();
 		</script>
 
 		<div id="offerte">
@@ -198,7 +192,6 @@
 		<div id="footer">
 			2018 © Copyright EXONET Belgium.
 		</div>
-
 	</div>
 </body>
 </html>

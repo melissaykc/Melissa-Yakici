@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
 	<link rel="stylesheet" type="text/css" href="styles/offerte.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<title>
 		Contact - Exonet Belgium
@@ -19,25 +19,26 @@
 
 <body>
 	<div id="contact-grid">
-<div id="hamburger">
-      <a href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
-    </div>
+		<div id="hamburger">
+			<a href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		</div>
+
 		<div id="menu">
-			<img src="images/logo.jpg">
+			<img src="images/logo.jpg" alt="EXONET Belgium">
 			<a href="jobs.php">Jobs</a>
 			<a href="contact.php" class="btn active">Contact</a>
 			<div class="dropdown">
 				<a id="diensten-link" href="diensten.php">Diensten</a>
 				<div class="dropdown-content">
-				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
-				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
-				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+					<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+					<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
 					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
 					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
 					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
 				</div>
 			</div>
-			<a href="home.php">Home</a>
+			<a href="index.php">Home</a>
 		</div>
 
 		<div id="offerte">
@@ -45,6 +46,7 @@
 				<p>Professionele schoonmaak</p>
 				<hr>
 			</div>
+
 			<div id="info-offerte">
 				Voor kantoren, commerciële panden, magazijnen, praktijken, horeca,....
 			</div>
@@ -68,7 +70,7 @@
 					</p>
 
 					<a href="#" class="input-button ">
-								<i class="fa fa-paper-plane"> VRAAG OFFERTE AAN </i> 
+						<i class="fa fa-paper-plane"> VRAAG OFFERTE AAN </i> 
 					</a>
 				</form>
 			</div>
@@ -98,7 +100,7 @@
 		<div id="footer">
 			2018 © Copyright EXONET Belgium.
 		</div>
-
 	</div>
 </body>
+
 </html>

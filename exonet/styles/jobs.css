@@ -14,16 +14,24 @@
 
 #cv {
 	margin-bottom: 5%;
+	
 }
 
 #info-jobs {
 	margin-bottom: 3%;
 }
+.w3-container{
+		margin-bottom: 18px;
+	}
 
 @media only screen and (min-width: 600px)
 {
 	#jobs {
 		margin-left: 2%;
 		margin-right: 2%;
+	}
+	
+	.w3-container{
+		margin-bottom: 20px;
 	}
 }

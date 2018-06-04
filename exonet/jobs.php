@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
 	<link rel="stylesheet" type="text/css" href="styles/jobs.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -16,28 +16,28 @@
 		Jobs - Exonet Belgium
 	</title>
 </head>
-
 <body>
 	<div id="jobs-grid">
-<div id="hamburger">
+		<div id="hamburger">
       <a href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
     </div>
+		
 		<div id="menu">
-			<img src="images/logo.jpg">
+			<img src="images/logo.jpg" alt="EXONET Belgium">
 			<a href="jobs.php" class="btn active">Jobs</a>
 			<a href="contact.php">Contact</a>
 			<div class="dropdown">
 				<a id="diensten-link" href="diensten.php">Diensten</a>
 				<div class="dropdown-content">
-				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
-				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
-				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+					<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+					<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
 					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
 					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
 					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
 				</div>
 			</div>
-			<a href="home.php">Home</a>
+			<a href="index.php">Home</a>
 		</div>
 
 		<div id="jobs">
@@ -45,6 +45,7 @@
 				<p>Solliciteren</p>
 				<hr>
 			</div>
+			
 			<div id="info-jobs">
 				Hier kan u online solliciteren voor een eventueel openstaande vacature.
 			</div>
@@ -65,15 +66,15 @@
 					<div id="cv">
 						<p>Voeg hier je CV in:</p>
 						<input type="file" id="myFile">
+				
+						<script>
+						function myFunction() {
+							var x = document.getElementById("myFile");
+							x.disabled = true;
+						}
+						</script>
+					</div>
 				</form>
-				<script>
-					function myFunction() {
-						var x = document.getElementById("myFile");
-						x.disabled = true;
-					}
-				</script>
-				</div>
-
 			</div>
 
 			<div id="map" style="width:100%;height:350px">
@@ -101,8 +102,6 @@
 		<div id="footer">
 			2018 © Copyright EXONET Belgium.
 		</div>
-
 	</div>
 </body>
-
 </html>

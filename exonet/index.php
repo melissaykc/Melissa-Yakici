@@ -13,13 +13,11 @@
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 	
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<title>
 		Home - Exonet Belgium
 	</title>
 </head>
-
 <body>
 	<div id="home-grid">
 		<div id="hamburger">
@@ -27,25 +25,25 @@
 		</div>
 
 		<div id="menu">
-			<img src="images/logo.jpg">
+			<img src="images/logo.jpg" alt="EXONET Belgium">
 			<a href="jobs.php">Jobs</a>
 			<a href="contact.php">Contact</a>
 			<div class="dropdown">
 				<a id="diensten-link" href="diensten.php">Diensten</a>
 				<div class="dropdown-content">
-				<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
-				<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
-				<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
+					<a href="dienstendb.php?filter=schoonmaak">Schoonmaak</a>
+					<a href="dienstendb.php?filter=opleveringsschoonmaak">Opleveringsschoonmaak</a>
+					<a href="dienstendb.php?filter=vloerreiniging">Vloerreiniging</a>
 					<a href="dienstendb.php?filter=klusjesdienst">Klusjesdienst</a>
 					<a href="dienstendb.php?filter=tuinonderhoud">Tuinonderhoud</a>
 					<a href="dienstendb.php?filter=computerreiniging">Computerreiniging</a>
 				</div>
 			</div>
-			<a href="home.php" class="btn active">Home</a>
+			<a href="index.php" class="btn active">Home</a>
 		</div>
 
 		<div id="header">
-			<img id="head" src="images/head.jpg">
+			<img id="head" src="images/head.jpg" alt="Welkom">
 			<p>EXONET Belgium</p>
 		</div>
 
@@ -56,42 +54,42 @@
 			</div>
 
 			<div id="foto1">
-				<img src="images/img2.jpg">
+				<img src="images/img2.jpg" alt="Verhuizingen">
 				<div class="werk-naam">Verhuizingen</div>
 			</div>
 
 			<div id="foto2">
-				<img src="images/img1.jpg">
+				<img src="images/img1.jpg" alt="Dakgoten reinigen">
 				<div class="werk-naam">Dakgoten reinigen</div>
 			</div>
 
 			<div id="foto3">
-				<img src="images/img3.jpg">
+				<img src="images/img3.jpg" alt="Vloerreiniging">
 				<div class="werk-naam">Vloerreiniging</div>
 			</div>
 
 			<div id="foto4">
-				<img src="images/img4.jpg">
+				<img src="images/img4.jpg" alt="Nieuwbouw schoonmaak">
 				<div class="werk-naam">Nieuwbouw schoonmaak</div>
 			</div>
 
 			<div id="foto5">
-				<img src="images/img8.jpg">
+				<img src="images/img8.jpg" alt="Computerreiniging">
 				<div class="werk-naam">Computerreiniging</div>
 			</div>
 
 			<div id="foto6">
-				<img src="images/img6.jpg">
+				<img src="images/img6.jpg" alt="Kantoor schoonmaak">
 				<div class="werk-naam">Kantoor schoonmaak</div>
 			</div>
 
 			<div id="foto7">
-				<img src="images/img7.jpg">
+				<img src="images/img7.jpg" alt="Gazononderhoud">
 				<div class="werk-naam">Gazononderhoud</div>
 			</div>
 
 			<div id="foto8">
-				<img src="images/img5.jpg">
+				<img src="images/img5.jpg" alt="Glaswas">
 				<div class="werk-naam">Glaswas</div>
 			</div>
 		</div>
@@ -101,6 +99,7 @@
 				<p>Waarom Exonet Belgium?</p>
 				<hr>
 			</div>
+			
 			<div id="info-waarom">
 				<p>
 					Exonet Belgium heeft op termijn een zeer stabiel klantenbestand opgebouwd, met heel wat klanten die besloten hebben ons als partner te omarmen. Voor onze directe manier van communiceren en onze flexibiliteit worden we geprezen.
@@ -116,26 +115,25 @@
 					Onze medewerkers staan klaar om u aan te bieden wat u zoekt.
 				</h3>
 			</div>
+			
 			<div id="medewerker1" class="medewerker">
-				<img src="images/werkn1.jpg" class="werk-img">
+				<img src="images/werkn1.jpg" class="werk-img" alt="medewerker 1">
 				<h1>Jane Doe</h1>
 				<h2>Medewerker</h2>
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
-				
-						<div id="img-button1" class="werk-knop">
-						<a href="contact.php">
+				<div id="img-button1" class="werk-knop">
+					<a href="contact.php">
 						Contact
 					</a>
-					
 				</div>
 			</div>
 
 			<div id="medewerker2" class="medewerker">
-				<img src="images/werkn2.jpg" class="werk-img">
+				<img src="images/werkn2.jpg" class="werk-img" alt="medewerker 2">
 				<h1>John Doe</h1>
 				<h2>Medewerker</h2>
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
-				<div id="img-button1" class="werk-knop">
+				<div id="img-button2" class="werk-knop">
 					<a href="contact.php">
 						Contact
 					</a>
@@ -143,11 +141,11 @@
 			</div>
 
 			<div id="medewerker3" class="medewerker">
-				<img src="images/werkn3.jpg" class="werk-img">
+				<img src="images/werkn3.jpg" class="werk-img" alt="medewerker 3">
 				<h1>Daniella Star</h1>
 				<h2>Medewerker</h2>
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt. </p>
-				<div id="img-button1" class="werk-knop">
+				<div id="img-button3" class="werk-knop">
 					<a href="contact.php">
 						Contact
 					</a>
@@ -155,11 +153,11 @@
 			</div>
 
 			<div id="medewerker4" class="medewerker">
-				<img src="images/werkn4.jpg" class="werk-img">
+				<img src="images/werkn4.jpg" class="werk-img" alt="medewerker 4">
 				<h1>Mike Ross</h1>
 				<h2>Medewerker</h2>
 				<p>Wij zien het als onze plicht om u als klant zo goed mogelijk te adviseren en grondig te begeleiden. Spreek ons aan als u een speciale wens hebt.</p>
-				<div id="img-button1" class="werk-knop">
+				<div id="img-button4" class="werk-knop">
 					<a href="contact.php">
 						Contact
 					</a>
@@ -172,6 +170,7 @@
 				<p>Professionele schoonmaak</p>
 				<hr>
 			</div>
+			
 			<div id="info-offerte">
 				Voor kantoren, commerciële panden, magazijnen, praktijken, horeca,....
 			</div>
